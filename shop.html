@@ -1,71 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">    
-    <title>Document</title>
-
-    <style>
-      
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #4a4a4f;
-   color: white;
-   text-align: center;
-}
-
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  float: left;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-</style>
-</head>
-<body>
-  <script>
-      console.log("Hello, World")
-    </script>
-<ul>
-  <a href="index.html">
-  <img alt="Qries" src="https://specials-images.forbesimg.com/imageserve/1026205392/960x0.jpg?fit=scale"width=150" height="70">
-  <li><a href="the-band.html">The Band</a></li>
-  <li><a href="tours-shows.html">Shows & Tours</a></li>
-  <li><a href="archive.html">Archive</a></li>
-  <li><a href="shop.html">The Shop</a></li>
+<html>
+	<head>
+		<title>Hello World</title>
+		<link rel="stylesheet" href="shop.css" type="text/css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="footer.css">
+	</head>
+	
+	<body>
+		<div class="logo">
+  <a href="index.html"><img src="logo.png" width="50px" height="50px"></a>
+</div>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="the-band.html">The Band</a></li>
+    <li><a href="tours-shows.html">Shows & Tours</a></li>
+    <li><a href="archive.html">Archive</a></li>
+    <li><a href="shop.html">Shop</a></li>
 </ul>
-    <div class="footer">
-  <a href="https://www.facebook.com/SickBandOfficial/?epa=SEARCH_BOX" class="fa fa-facebook"></a>
+</nav>
+
+		<div class="row">
+			<div class="card">
+				<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+                    <img src ="https://cdn.pixabay.com/photo/2014/04/02/10/13/t-shirt-303139_960_720.png" class="icon" width="100" height="100"/>
+                    <h2 class="link">Shirts</h2>
+                </a>
+			</div>
+			<div class="card">
+                <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">
+                    <img src="https://clipartart.com/images/animated-jeans-clipart-2.gif" class="icon" width="100" height="100"/>
+                    <h2 class="link">Pants</h2>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+                    <img src="http://www.clker.com/cliparts/9/e/7/d/11949867811377995871baseball_cap_ganson.svg.med.png" class="icon" width="100" height="100"/>
+                    <h2 class="link">Hats</h2>
+                </a>
+            </div>
+		</div>
+		<div class="row">
+			<div class="card">
+				<a href="https://en.wikipedia.org/wiki/Git">
+					<img src="https://webstockreview.net/images250_/cd-clipart-animated-15.png" class="icon" width="100" height="100" />
+					<h2 class="link">Vinyls & CD's</h2>
+				</a>
+			</div>
+			<div class="card">
+				<a href="https://en.wikipedia.org/wiki/GitHub">
+					<img src="https://img.moviepostershop.com/nickelback-movie-poster-2007-1010423644.jpg" class="icon" width="100" height="100"/>
+					<h2 class="link">Posters</h2>
+				</a>
+			</div>
+			<div class="card">
+				<a href="https://en.wikipedia.org/wiki/Cloud9">
+					<img src="https://media.istockphoto.com/vectors/paper-art-with-summer-accessories-and-summer-background-cartoon-vector-id1135971589" class="icon" width="100" height="100"/>
+					<h2 class="link">Accesories</h2>
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+  <a href="https://www.facebook.com/daniel.ryan.94009841" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 </div>
-</body>
+    
+    <div class="footer">
+  <a href="https://www.facebook.com/daniel.ryan.94009841" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+</div>
+	</body>
 </html>

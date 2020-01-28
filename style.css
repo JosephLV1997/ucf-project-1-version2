@@ -1,45 +1,14 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #4a4a4f;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #4a4a4e;
-}
-
-img {
-  float:left;
-}
-body{
-  margin: 0;
-  padding: 0;
-  background: #403d3d;
-}
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   overflow: hidden;\
 }
 .middle{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 16.75%;
+  left: 70.5%;
+  
 }
 .navigation{
   position: absolute;
@@ -95,3 +64,22 @@ input[name="r"]{
 #r5:checked ~ .s1{
   margin-left: -80%;
 }
+
+.card {
+  float: left;
+  width: 15%;
+  margin-left: 15%;
+}
+
+.card a {
+  text-align: center;
+}
+
+.icon {
+  width: 100%;
+  height: 180px;
+}
+
+.link{
+  text-align: center;
+  }
