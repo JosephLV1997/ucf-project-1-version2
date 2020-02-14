@@ -6,7 +6,7 @@ body{
 
    nav{
     width:100%;
-    background:black;
+    background: #4a4a4f;
     overflow: auto;
    }
 
@@ -31,7 +31,7 @@ body{
     padding: 40px 15px;
     text-decoration: none;
     font-family: arial;
-    color: #4a4a4f;
+    color: gold;
     text-align: center;
    }
 

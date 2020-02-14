@@ -84,10 +84,29 @@ input[name="r"]{
   text-align: center;
   }
 
-  .youtube
+   .youtube
   {
       position: fixed;
       top: 0%;
-      left:0%
+      left:17%;
       transform:translate(50%,50%);
   }
+
+
+/*code has been provided by w3schools : https://www.w3schools.com/css/css3_pagination.asp*/
+.pagination {
+  display: inline-block;
+  position: absolute;
+  top: 86.7%;
+  left:22.5%;
+  transform:translate(50,50);
+}
+
+.pagination a {
+    
+  color: rgb(243, 180, 8);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/*code has been provided by w3schools : https://www.w3schools.com/css/css3_pagination.asp*/
