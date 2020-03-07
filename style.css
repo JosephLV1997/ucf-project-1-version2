@@ -1,4 +1,8 @@
-
+.band-info{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
 .slidershow{
   width: 450px;
   height: 450px;
