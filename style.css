@@ -1,8 +1,3 @@
-.band-info{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-}
 .slidershow{
   width: 450px;
   height: 450px;
@@ -114,3 +109,17 @@ input[name="r"]{
   text-decoration: none;
 }
 /*code has been provided by w3schools : https://www.w3schools.com/css/css3_pagination.asp*/
+
+.voa1{
+  position: absolute;
+  height: 400px;
+  width: auto;
+  top: 17.25%;
+  left: 0.1%;
+}
+
+.band-info{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
