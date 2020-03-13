@@ -1,3 +1,4 @@
+/*Index.html*/
 .slidershow{
   width: 450px;
   height: 450px;
@@ -62,6 +63,12 @@ input[name="r"]{
 }
 #r5:checked ~ .s1{
   margin-left: -80%;
+}
+
+.band-info1{
+    position: fixed;
+    top: 17.5%;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .card {
