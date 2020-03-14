@@ -93,6 +93,27 @@ input[name="r"]{
     position: fixed;
 }
 
+.cavern-clb1{
+    height: 350px;
+    width:500px ;
+    position: absolute;
+    z-index: -1;
+}
+
+.booking{
+    top:70%;
+    left:15.0%;
+    position: absolute;
+    color:#DAA520;
+}
+
+.gig-info{
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    color:white;
+    transform: rotate(4deg);
+}
 
 .card {
   float: left;
