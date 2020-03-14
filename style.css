@@ -2,7 +2,7 @@
 .slidershow{
   width: 450px;
   height: 450px;
-  overflow: hidden;\
+  overflow: hidden;
 }
 .middle{
   position: absolute;
@@ -73,6 +73,26 @@ input[name="r"]{
     width: 50%;
     font-family: "Times New Roman", Times, serif;
 }
+/*the band*/
+.band-info{
+    position: fixed;
+    top: 10.25%;
+    left: 0.1%;
+    height: 100%;
+    width: 70%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.8em;
+    color:#DAA520 
+}
+
+.band-pictures{
+    height: ;
+    width: ;
+    top: ;
+    left ; 
+    position: fixed;
+}
+
 
 .card {
   float: left;
@@ -126,13 +146,6 @@ input[name="r"]{
   width: auto;
   top: 17.25%;
   left: 0.1%;
-}
-
-.band-info{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 50%;
 }
 
 /*header styling provided by w3schools*/
