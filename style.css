@@ -119,6 +119,7 @@ input[name="r"]{
   float: left;
   width: 15%;
   margin-left: 15%;
+  margin-top: 0.5%;
 }
 
 .card a {
