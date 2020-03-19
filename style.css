@@ -1,192 +1,40 @@
-/*Index.html*/
-.slidershow{
-  width: 450px;
-  height: 450px;
-  overflow: hidden;
-}
-.middle{
-  position: absolute;
-  top: 16.75%;
-  left: 70.5%;
-  
-}
-.navigation{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.bar{
-  width: 50px;
-  height: 10px;
-  border: 2px solid #fff;
-  margin: 6px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.bar:hover{
-  background: #fff;
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.slides{
-  width: 500%;
-  height: 100%;
-  display: flex;
-}
-
-.slide{
-  width: 20%;
-  transition: 0.6s;
-}
-.slide img{
-  width: 100%;
-  height: 100%;
-}
-
-#r1:checked ~ .s1{
-  margin-left: 0;
-}
-#r2:checked ~ .s1{
-  margin-left: -20%;
-}
-#r3:checked ~ .s1{
-  margin-left: -40%;
-}
-#r4:checked ~ .s1{
-  margin-left: -60%;
-}
-#r5:checked ~ .s1{
-  margin-left: -80%;
-}
-
-.index-info{
-    position: fixed;
-    top: 14.5%;
-    left: 0.1%;
-    height: 50%;
-    width: 50%;
-    font-family: "Times New Roman", Times, serif;
-}
-/*the band*/
-.band-info{
-    position: fixed;
-    top: 10.25%;
-    left: 0.1%;
-    height: 100%;
-    width: 70%;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 3.8em;
-    color:#DAA520 
-}
-
-.band-picture{
-    height: 370px ;
-    width: auto;
-    top: 17.25%;
-    left: 75% ; 
-    position: fixed;
-}
-
-.cavern-clb1{
-    height: 350px;
-    width:500px ;
-    position: absolute;
-    z-index: -1;
-}
-
-.booking{
-    top:70%;
-    left:15.0%;
-    position: absolute;
-    color:#DAA520;
-}
-
-.gig-info{
-    position: absolute;
-    top: 34%;
-    left: 15%;
-    color:white;
-    transform: rotate(4deg);
-}
-
+/*<!--Thanks to Aaronsnig501 for supplementing this code https://github.com/Code-Institute-Solutions/GitHub/blob/master/03-github_pages/index.html*/
 .card {
   float: left;
   width: 15%;
   margin-left: 15%;
-  margin-top: 0.5%;
 }
 
 .card a {
   text-align: center;
 }
 
-.icon {
+.cardimg {
   width: 100%;
   height: 180px;
 }
 
-.link{
+.shopclass{
+  font-family: "Lato", sans-serif
+}
+
+h1 {
   text-align: center;
-  }
-
-   .youtube
-  {
-      position: fixed;
-      top: 0%;
-      left:17%;
-      transform:translate(50%,50%);
-  }
-
-
-/*code has been provided by w3schools : https://www.w3schools.com/css/css3_pagination.asp*/
-.pagination {
-  display: inline-block;
-  position: absolute;
-  top: 86.7%;
-  left:40%;
-  transform:translate(50,50);
 }
 
-.pagination a {
-    
-  color: rgb(243, 180, 8);
-  float: left;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-/*code has been provided by w3schools : https://www.w3schools.com/css/css3_pagination.asp*/
-
-.voa1{
-  position: absolute;
-  height: 400px;
-  width: auto;
-  top: 17.25%;
-  left: 0.1%;
-}
-
-/*header styling provided by w3schools*/
 * {box-sizing: border-box;}
 
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .header {
   overflow: hidden;
-  background-color: #4a4a4f;
+  background-color: #f1f1f1;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: 	#DAA520;
+  color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -225,4 +73,3 @@ body {
     float: none;
   }
 }
-/*header styling provided by w3schools/*
