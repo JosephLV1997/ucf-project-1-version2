@@ -23,10 +23,17 @@ User actions –
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Feature 1 - allows users to view images of the clients choice.
+- Feature 2 - Nav bar allowing users to navigate to current and future implmentations of sections.
+- Feature 3 - A page dedicated to the detailing of a band/musical group only requring tailoring to the clients requirements.
+- Feature 4 - a shows and tours section which details the availability of tickets and what current shows are available to purchase alongside images of the venues.
+- Feature 5 - A contact section which will in the future allow fans to make queries to the duo if information is not present on the website which could also lead to further implementations
+- Feature 6 - a section dedicated to the showcases of some of the samples provided by VOA. these are achieved through using iframes to capture youtube videos and implement them into the site.
+- Feature 7 - A section will be available for a shop so that VOA will be able to sell goods to its fans such as clothes and accessories the links do not point to anything yet as implementation will begin in a later project.
+- Feature 8 - footer will have social media links pointing to the duo's facebook site.
 - ...
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -40,8 +47,14 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- html 
+ - this language was used as the website would not work
+
+ css - This language was used to manipulate the html code to make it look and feel more user friendly to the user
+
+ Javascript - The Javascript came with the template that was provided by w3schools and is primarily used in the contact section should any fields be missing information.
+
+ An example was retrieved from w3schools and was specifically designed to accommodate a musical group such as VOA : https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h--> 
 
 
 ## Testing
@@ -52,38 +65,40 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Youtube videos:
+    1. Click on the video. 
+    2. See if it plays or returns the message that says 'this content cannot be played.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+2. Nav links
+    1. click on the links to see if they go to the respective sections 
+    2. if not rectify h ref in code
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+3. social media buttons
+    1. hover over the social media links 
+    2. see if only one when clicks takes you directly to respective social media page 
+    3. If only a the facebook link should take you to the facebook page then proceed to mark it off 
+    4. If all the links have done this then make sure that the anchor tags and other attributes are encapsulated properly
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The site will be deployed throug the master branch. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I did run into a problem with deploying the site as the content was not being displayed on the deployed version of the site but was overcome by renaming the project name and including an io.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The site will be ran locally through clicking the html file on the desktop.
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The content for the main section was provided by Daniel Ryan through facebook messenger.
+
+youtube links were provided by Daniel Ryan through facebook messenger
 
 ### Media
-- The photos used in this site were obtained from ...
+images were recieved from Daniel Ryan through Facebook Messenger
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+Thank you to w3 schools for supplmenting the template
+
+Thank you to Arron Sinnott for supplying the code for the shop. 
