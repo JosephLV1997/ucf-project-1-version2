@@ -1,7 +1,7 @@
 <!--code template has been provided by w3 schools and modified to suit the client and course requirements https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h-->
 <!DOCTYPE html>
 <html lang="en">
-<title>Visions of Albion</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -19,12 +19,12 @@
         display: none
     }
 </style>
-
+<title>Visions of Albion</title>
 <body>
 
     <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-black w3-card">
+    <header class="w3-top">
+        <nav class="w3-bar w3-black w3-card">
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
             <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
@@ -39,16 +39,18 @@
                 </div>
             </div>
             <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-        </div>
-    </div>
-
-    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+            
+        </nav>
+        <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
     <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
         <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
         <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
         <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
     </div>
+    </header>
+
+    
 
     <!-- Page content -->
     <div class="w3-content" style="max-width:2000px;margin-top:46px">
@@ -80,7 +82,7 @@
         <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
             <h2 class="w3-wide">Visions of Albion</h2>
             <p class="w3-opacity"><i>Music is our passion</i></p>
-            <p class="w3-justify">Hello and welcome to the Visions of Albion website. Our duo consists of myself (Dan) and my better half Sam.</br>
+            <p class="w3-justify">Hello and welcome to the Visions of Albion website. Our duo consists of myself (Dan) and my better half Sam.<br>
                 </br>
                 We have started this website in the hope it shows a fresh perspective in comparison to our pages on respective social media sites such as Facebook, Twitter and Instagram and be able to put our stamp, our image.</br>
                 </br>
@@ -207,13 +209,7 @@
                 <h2 class="w3-wide w3-center">Archive</h2>
                 <p class="w3-opacity w3-center"><i>Check out our videos/music</i></p>
                 <br>
-                <style>
-                    .youtube {
-                        position: relative;
-                        float: left;
-                        margin-left: 1%;
-                    }
-                </style>
+                >
                 <div class="youtube">
                     <iframe src="https://www.youtube.com/embed/lBrMq5oKNIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -280,7 +276,7 @@
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-        <a href="https://www.facebook.com/VisionsofAlbion" i class="fa fa-facebook w3-hover-opacity"></a>
+        <a href="https://www.facebook.com/VisionsofAlbion"  class="fa fa-facebook w3-hover-opacity"></a>
         </i>
         <i class="fa fa-instagram w3-hover-opacity"></i>
         <i class="fa fa-snapchat w3-hover-opacity"></i>
