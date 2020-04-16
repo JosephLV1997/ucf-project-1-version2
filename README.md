@@ -80,7 +80,7 @@ For any scenarios that have not been automated, test the user stories manually a
     4. If all the links have done this then make sure that the anchor tags and other attributes are encapsulated properly
 ## Deployment
 
-The site will be deployed throug the master branch. 
+The site will be deployed through the master branch. 
 
 I did run into a problem with deploying the site as the content was not being displayed on the deployed version of the site but was overcome by renaming the project name and including an io.
 
@@ -95,10 +95,11 @@ The content for the main section was provided by Daniel Ryan through facebook me
 youtube links were provided by Daniel Ryan through facebook messenger
 
 ### Media
-images were recieved from Daniel Ryan through Facebook Messenger
+images were recieved from Daniel Ryan through Facebook Messenger.
+images placed in the shop section were retrieved from google images.
 
 ### Acknowledgements
 
-Thank you to w3 schools for supplmenting the template
+Thank you to w3 schools for supplmenting the template referenced in the index.html file
 
-Thank you to Arron Sinnott for supplying the code for the shop. 
+Thank you to Arron Sinnott for supplying the code for the shop referenced in the html and css file 
